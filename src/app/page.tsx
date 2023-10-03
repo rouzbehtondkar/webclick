@@ -1,12 +1,11 @@
 // import Image from 'next/image'
+import Slider from  '@/components/home/slider'
 
 export default function Home() {
   return (
-
-     <div>
-
-       <p className='text-green-300 text-5xl '>rouzbeh</p>
-     </div> 
+    <>
+<Slider/>
+    </>
 
   )
 }
