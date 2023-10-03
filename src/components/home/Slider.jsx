@@ -1,7 +1,7 @@
 const slider = () => {
     return (
         <div className="w-[100%]">
-           <p>dsfsdfsdf</p>
+           <p>asdasdasdasd</p>
         </div>
     );
 }
