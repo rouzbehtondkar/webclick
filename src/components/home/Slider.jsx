@@ -1,4 +1,6 @@
 import Image from "next/image";
+
+
 const slider = () => {
   return (
     <div className="w-[100%] pt-20">
@@ -9,7 +11,7 @@ const slider = () => {
           <h1 className="text-[#232323] text-[48px] font-bold">
             create Your Own <br /> Awesome Business
           </h1>
-          <p className="text-[#6D6D6D]">
+          <p className="">
             webclick team offers a range of services including UI/UX Design
             tailored to developers. We strive to provide topnotch service to all
             our clients.
@@ -18,8 +20,9 @@ const slider = () => {
             Get started
           </button>
         </div>
-        <div className="flex w-[50%]">
-          <img src="./img/man.png" alt="alt" />
+        <div className="flex  w-[50%]">
+          <img className="relative"  src="./img/bg.png" alt="alt" />
+          <img className="absolute w-[40%] h-[50%] top-18 right-[10%]" src="./img/man.png" alt="man" />
         </div>
       </div>
     </div>
