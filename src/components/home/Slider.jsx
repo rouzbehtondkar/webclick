@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from 'next/link'
 const slider = () => {
   return (
-    <div className="w-[100%]">
+    <div className="w-[100%] md:h-[818px]">
       {/* left sidebar text */}
      <div className="container shadow-lg mx-auto flex gap-2 relative">
         <div className="text-slider md:w-[40%] flex flex-col gap-[24px] md:pt-[126px] absolute left-0 justify-center  ">
