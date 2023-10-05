@@ -12,9 +12,10 @@
 //     );
 // }
 // export default MyApp
-
-import { Provider } from "react";
 import store from '../stores/store';
+import { ApiProvider } from "@reduxjs/toolkit/dist/query/react";
+import { productsApi } from "@/stores/appslice";
+import { Provider } from "react-redux";
 
 interface AppProps {
   Component: React.ComponentType;
@@ -24,7 +25,9 @@ interface AppProps {
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Provider store={store}>
+      <ApiProvider api={productsApi}>
       <Component {...pageProps} />
+    </ApiProvider>
     </Provider>
   );
 }
