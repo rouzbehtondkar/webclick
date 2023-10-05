@@ -19,7 +19,7 @@ const slider = () => {
           <p className="md:w-[87%]">
             webclick team offers a range of services including UI/UX Design
             tailored to developers. We strive to provide topnotch service to all
-            our clients.
+            our clients..
           </p>
           {/* link slider */}
           <Link
@@ -40,16 +40,19 @@ const slider = () => {
             <div class="inner ">
               <h5 class="title">835 Happy Clients </h5>
               <div class="flex items-center justify-center  ">
-                <img className=" w-[14.169px] h-[13.459px]" src="./img/star.png" alt="" />
+                <img
+                  className=" w-[14.169px] h-[13.459px]"
+                  src="./img/star.png"
+                  alt=""
+                />
                 <span className="number">4.9</span>
                 <span className="view">(7k Reviews)</span>
               </div>
             </div>
           </div>
           <img className="imgIdea" src="./img/idea.png" alt="" />
-
         </div>
-      </div> 
+      </div>
     </div>
   );
 };
