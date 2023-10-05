@@ -1,15 +1,24 @@
-// import Image from 'next/image'
+import Head from "next/head";
 
-export default function Home() {
-    return (
-  
-       <div>
-  
-         <p className='text-green-300 text-5xl '>rouzbeh</p>
-         
-         <p className='text-green-300 text-5xl flex justify-center '>rouzbeh</p>
-       </div> 
-  
-    )
-  }
-  
+import MainLayout from "@/layouts/mainLayout/index";
+
+const Main = () => {
+	return (
+		<>
+			<Head>
+				<title>خانه</title>
+				<meta name="description" content="Home Page" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<link rel="icon" className="rounded-full" href="/assets/icons/meshki.ico" />
+			</Head>
+			<main>
+				
+			</main>
+		</>
+	);
+};
+
+// getLayout
+Main.getLayout = () => <MainLayout/>;
+// export
+export default Main;
