@@ -2,9 +2,13 @@ import type { Config } from 'tailwindcss'
 
 const config: Config = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
+
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -21,9 +25,10 @@ const config: Config = {
       'sm': '640px',
       'md': '768px',
       'lg': '1200px',
-      
+      'xl': '1500px',
+      '2xl': '1800px'
     },
   },
-  plugins: [],
+  plugins: [require('flowbite/plugin')],
 }
 export default config
