@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-const slider = () => {
+const Slider = () => {
   return (
     <div className="w-[100%]">
       {/* left sidebar text */}
-      <div className="container shadow-lg mx-auto flex gap-2 relative">
-        <div className="text-slider md:w-[40%] flex flex-col gap-[24px] md:pt-[126px] absolute left-0 justify-center  ">
+      <div className="container  mx-auto flex gap-2 relative">
+        <div className="text-slider md:w-[40%] flex flex-col gap-[24px] md:pt-[126px] relative left-0 justify-center  ">
           {/* title slider */}
           <div className="flex flex-col gap-[12px] z-1">
             <span className="text-[#1773E2] text-[24px] font-bold">
@@ -57,4 +57,4 @@ const slider = () => {
   );
 };
 
-export default slider;
+export default Slider;

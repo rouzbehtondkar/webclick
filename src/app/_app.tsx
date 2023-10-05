@@ -24,11 +24,11 @@ interface AppProps {
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <Provider store={store}>
-      <ApiProvider api={productsApi}>
-      <Component {...pageProps} />
-    </ApiProvider>
-    </Provider>
+    // <Provider store={store}>
+    //   <ApiProvider api={productsApi}>
+    //   <Component {...pageProps} />
+    // </ApiProvider>
+    // </Provider>
   );
 }
 
