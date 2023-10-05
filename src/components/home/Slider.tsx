@@ -36,10 +36,10 @@ const slider = () => {
             src="./img/man.png"
             alt="alt"
           />
-          <div class="instructor-info flex absolute ">
-            <div class="inner ">
-              <h5 class="title">835 Happy Clients </h5>
-              <div class="flex items-center justify-center  ">
+          <div className="instructor-info flex absolute ">
+            <div className="inner ">
+              <h5 className="title">835 Happy Clients </h5>
+              <div className="flex items-center justify-center  ">
                 <img
                   className=" w-[14.169px] h-[13.459px]"
                   src="./img/star.png"
