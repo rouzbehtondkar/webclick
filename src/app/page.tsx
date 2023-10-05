@@ -1,7 +1,7 @@
 
 import Image from 'next/image'
 import Slider from '@/components/home/Slider'
-import Services from '@/components/Services'
+import Service from '@/components/home/Service'
 import Header from '@/components/home/Header'
 import "../assets/styles/modules/tailwind.css"
 import FooterSitemapLinks from "@/components/home/Footer"
@@ -11,10 +11,10 @@ export default function Home() {
       <Header />
       <div className='flex flex-col gap-[20px]'>
         <Slider />
-        <Services />
+        <Service/>
        
       </div>
-      <div style={{marginTop:"600px"}}>
+      <div style={{marginTop:"50px"}}>
       <FooterSitemapLinks/>
       </div>
 
