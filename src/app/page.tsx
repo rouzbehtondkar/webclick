@@ -1,3 +1,4 @@
+
 import Image from 'next/image'
 import Slider from '@/components/home/Slider'
 import Services from '@/components/Services'
