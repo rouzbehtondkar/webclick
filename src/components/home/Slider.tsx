@@ -17,17 +17,36 @@ const slider = () => {
           <p className="md:w-[87%]">
             webclick team offers a range of services including UI/UX Design
             tailored to developers. We strive to provide topnotch service to all
-            our clients.
+            our clients..
           </p>
           {/* link slider */}
           <Link href="/" className="bg-blue-500 w-[135px] h-[52px] rounded-[12px] flex justify-center items-center text-white ">get start</Link>
         </div>
         {/* show photo slider */}
         <div className="flex md:w-[77.5%] absolute right-[31px] text-right md:pr-[44px] md:pl-[44px] back-slider  ">
-         
-        <img className="relative h-[682px] " src="./img/man.png" alt="alt" />
+
+          <img
+            className="relative w-[662px] h-[582px] left-20 "
+            src="./img/man.png"
+            alt="alt"
+          />
+          <div className="instructor-info flex absolute ">
+            <div className="inner ">
+              <h5 className="title">835 Happy Clients </h5>
+              <div className="flex items-center justify-center  ">
+                <img
+                  className=" w-[14.169px] h-[13.459px]"
+                  src="./img/star.png"
+                  alt=""
+                />
+                <span className="number">4.9</span>
+                <span className="view">(7k Reviews)</span>
+              </div>
+            </div>
+          </div>
+          <img className="imgIdea" src="./img/idea.png" alt="" />
         </div>
-     </div>
+      </div>
     </div>
   );
 };
