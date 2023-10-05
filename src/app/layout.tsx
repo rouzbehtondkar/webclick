@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '../assets/css/iransans.css'
 import "../assets/styles/modules/tailwind.css"
-
+import "./globals.css"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -21,7 +21,7 @@ export default function RootLayout({
     <>
    
       <html lang="en">
-      <body >{children}</body>
+      <body>{children}</body>
     </html>
     </>
   
