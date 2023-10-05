@@ -67,7 +67,7 @@ Home
             
           </div>
         </div>
-        <div className="w-full p-2 flex bg-gray-700 justify-center items-center">
+        <div className="w-full p-2 flex bg-white  justify-center items-center">
           @2023 webclick,all rights Recerved
           
         </div>
