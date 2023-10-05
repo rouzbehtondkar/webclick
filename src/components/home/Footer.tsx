@@ -5,7 +5,7 @@ import {  BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 import {AiOutlineInstagram,AiFillLinkedin,AiOutlineFacebook} from "react-icons/ai"
 export default function FooterSitemapLinks() {
   return (
-    <Footer bgDark>
+    <Footer className='bg-white'>
       <div className="w-full">
         <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
           <div>
