@@ -40,7 +40,7 @@ const Service = () => {
             <img className="absolute imgCard" src={item.image} alt="" />
        </div>
             <h1 className="titleCard ">{item.title}</h1>
-            <span className="descCard  ">{item.desc}</span>
+            <span className="descCard  pl-[32px] pr-[32px]">{item.desc}</span>
             <Link  
             href="/"
             className=" btnCard"

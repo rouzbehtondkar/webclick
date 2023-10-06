@@ -14,9 +14,10 @@ return(
    <Navbar
       fluid
       rounded
-      className="mt-3"
+      className="pb-[96px] pt-[48px]"
     >
-      <Navbar.Brand href="https://flowbite-react.com">
+      <Navbar.Brand href="https://flowbite-react.com" 
+      className="flex items-center">
         <img
           alt="Flowbite React Logo"
           className="mr-3 h-6 sm:h-9"
@@ -29,18 +30,19 @@ return(
         <Navbar.Link
           active
           href="#"
+          className="hover:text-primary"
         >
           <p>
             Home
           </p>
         </Navbar.Link>
-        <Navbar.Link href="#">
+        <Navbar.Link href="#" className="hover:text-primary">
           Services
         </Navbar.Link>
-        <Navbar.Link href="#">
+        <Navbar.Link href="#" className="hover:text-primary">
           OurProject
         </Navbar.Link>
-        <Navbar.Link href="#">
+        <Navbar.Link href="#" className="hover:text-primary">
           Aboutus
         </Navbar.Link>
        <select className="-mt-2">
@@ -48,10 +50,11 @@ return(
         <option>fa</option>
        </select>
       </Navbar.Collapse>
-      <div className="flex justify-between ">
-        <Button className="2xl:-mt-2 4xl:mt-5 5xl:mt-5 xs:mt-5 xl:-mt-2 md:mt-0 sm:mt-5 lg:-mt-2">
+      <div className="flex justify-between items-center ">
+        <Link href="/" className="2xl:-mt-2 4xl:mt-5 5xl:mt-5 rounded-[12px] text-white pt-[12px] pb-[12px] pr-[24px] pl-[24px]
+         bg-primary xs:mt-5 xl:-mt-2 md:mt-0 sm:mt-5 lg:-mt-2">
          contactus
-        </Button>
+        </Link>
         <Navbar.Toggle className="ml-10 mt-5 4xl:mt-5 5xl:mt-5 xs:mt-5"/>
       </div>
     </Navbar>
