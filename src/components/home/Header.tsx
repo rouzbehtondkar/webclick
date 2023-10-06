@@ -48,11 +48,11 @@ return(
         <option>fa</option>
        </select>
       </Navbar.Collapse>
-      <div className="flex justify-between">
-        <Button className="-mt-2">
+      <div className="flex justify-between ">
+        <Button className="2xl:-mt-2 4xl:mt-5 5xl:mt-5 xs:mt-5 xl:-mt-2 md:mt-0 sm:mt-5 lg:-mt-2">
          contactus
         </Button>
-        <Navbar.Toggle />
+        <Navbar.Toggle className="ml-10 mt-5 4xl:mt-5 5xl:mt-5 xs:mt-5"/>
       </div>
     </Navbar>
   </>
