@@ -1,20 +1,10 @@
-// import { Provider } from "react";
-// import store from '../stores/store';
-// //@ts-ignore
-// interface appAll{
-//     Component:string
-// }
-// function MyApp ({Component:appAll,PageProps}){
-//     return (
-//         <Provider store={store}>
-//             <Component {...PageProps } />
-//         </Provider>
-//     );
-// }
-// export default MyApp
 
-import { Provider } from "react";
+
+import { Provider } from "react-redux";
 import store from '../stores/store';
+import "../assets/styles/modules/tailwind.css"
+import { appWithTranslation } from 'next-i18next';
+
 
 interface AppProps {
   Component: React.ComponentType;
@@ -22,11 +12,22 @@ interface AppProps {
 }
 
 function MyApp({ Component, pageProps }: AppProps) {
+
   return (
-    <Provider store={store}>
-      <Component {...pageProps} />
+
+    
+    <>
+ 
+      <Provider store={store}>
+     
+        <Component {...pageProps} />
+    
     </Provider>
+    </>
+
+
+
   );
 }
 
-export default MyApp;
+export default  appWithTranslation(MyApp);
