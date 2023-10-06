@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'IRANSans';
-    src: url('./Fonts/IRANSansWeb(FaNum).woff2') format('woff2');
+    src: url('../Fonts/IRANSansWeb(FaNum).woff2') format('woff2');
     font-style: normal;
   }
   @font-face {
     font-family: 'IRANSans-bold';
-    src: url('./Fonts/IRANSansWeb(FaNum)_Bold.woff2') format('woff2');
+    src: url('../Fonts/IRANSansWeb(FaNum)_Bold.woff2') format('woff2');
     font-weight: 900;
   }
   .fBold{
