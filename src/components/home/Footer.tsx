@@ -1,7 +1,6 @@
 'use client';
 
 import { Footer } from 'flowbite-react';
-import {  BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 import {AiOutlineInstagram,AiFillLinkedin,AiOutlineFacebook} from "react-icons/ai"
 export default function FooterSitemapLinks() {
   return (

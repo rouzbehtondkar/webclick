@@ -24,7 +24,7 @@ const Slider = () => {
           {/* link slider */}
           <Link
             href="/"
-            className="bg-blue-500 w-[135px] h-[52px] rounded-[12px] flex justify-center items-center text-white "
+            className="bg-primary w-[135px] h-[52px] rounded-[12px] flex justify-center items-center text-white "
           >
             get start
           </Link>

@@ -27,7 +27,7 @@ const Team = () => {
           </p>
           <Link
             href="/"
-            className="bg-blue-500 w-[155px] h-[52px] rounded-[12px] flex justify-center items-center text-white "
+            className="bg-primary w-[155px] h-[52px] rounded-[12px] flex justify-center items-center text-white "
           >
            See Our Projec
           </Link>
