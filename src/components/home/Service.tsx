@@ -29,8 +29,8 @@ const Service = () => {
     ]
   return (
     <div className="w-full pt-[15%] pb-[5%]">
-      <div className="flex  container mx-auto">
-        <div className="flex  ">
+      <div className="flex  container w-[100%]  mx-auto">
+        <div className="flex">
 
         {data.map(item=>(
             

@@ -107,3 +107,58 @@ text-transform: lowercase;
   line-height: 70px; /* 437.5% */
 
 }
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* ارتفاع مربع اصلی */
+}
+
+.box {
+  width: 350px; /* عرض مربع */
+  height: 350px; /* ارتفاع مربع */
+  border-radius: 20px;
+  border: 2px solid rgba(23, 115, 226, 0.20);
+  position: relative;
+}
+
+.box::before,
+.box::after {
+  content: "";
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  border: 1px solid rgba(23, 115, 226, 0.20); /* خط بالا */
+  stroke-width: 2px;
+stroke: rgba(23, 115, 226, 0.20);
+}
+.box::before {
+  border: 1px solid rgba(23, 115, 226, 0.20);
+  position: absolute;
+  top: 90%;
+  left:80px;
+  width: 20%;
+  transform:rotate(90deg);
+}
+.box::after {
+  border: 1px solid rgba(23, 115, 226, 0.20);
+  position: absolute;
+  top: 90%;
+  left:190px;
+  width: 20%;
+  transform:rotate(90deg);
+}
+.parent {
+top:280px;
+  border-radius: 20px;
+  position: relative;
+}
+.parent::before {
+  content: "";
+  position: absolute;
+  top:0%;
+  width: 100%;
+  border: 1px solid rgba(23, 115, 226, 0.20); /* خط بالا */
+  stroke-width: 2px;
+stroke: rgba(23, 115, 226, 0.20);
+}
